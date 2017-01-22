@@ -68,6 +68,12 @@ public final class MobDefinition {
                 definition.adjustVertextPointsXOrY = 105;
                 definition.drawYellowDotOnMap = false;
                 break;
+            case 6217: //phoenix minion
+                definition.copy(get(6216));
+                definition.combatLevel = 122;
+                definition.adjustVertextPointsXOrY = 255;
+                definition.adjustVertextPointZ = 150;
+                break;
             case 7286:
                 System.out.println("Skotizo size: "+definition.npcSizeInSquares);
                 break;
